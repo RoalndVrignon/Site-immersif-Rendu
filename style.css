@@ -132,3 +132,23 @@ h3 {
 .sous-soustitre{
   font-size: 20px;
 }
+
+footer{
+  height: 80px;
+  background-color: #333333;
+}
+
+.logo{
+  margin-top: 20px;
+  margin-left: 8%;
+}
+
+.iim{
+  margin-top: 20px;
+  margin-right: 8%;
+}
+
+.foot{
+    margin-top:30px;
+    color: white;
+}

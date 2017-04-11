@@ -23,15 +23,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="#">
+              <img src="img/logos.png" height="99%">
+            </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right  cl-effect-1" style="margin-right:100px;">
-                <li><a href="#about" class="js-scrollTo">Cours</a></li>
-                <li><a href="#services" class="js-scrollTo">Rendu</a></li>
-                <li><a href="#skills" class="js-scrollTo">Contact</a></li>
+                <li><a href="#cours">Cours</a></li>
+                <li><a href="#rendu">Rendu</a></li>
+                <li><a href="#skills">Contact</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -130,26 +132,62 @@ Un fichier SVG n’est pas dégradé même quand il est zoomé.</h3>
     <section class="contact">
       <div class="container">
         <h1 style="margin-top:70px;">Contact</h1>
-          <div class="row">
+        <div class="row">
           <div class="col-sm-6">
-            <form action="" class="form">
-              <fieldset class="form-field">
-                <input id="number" type="text" class="form-input">
-                <label for="number" class="form-label">E-mail</label>
-              </fieldset>
-            </form>
+              <form action="" class="form">
+                <fieldset class="form-field">
+                    <input type="text" name="name" id="name" class="form-control form-input"  rows="3" >
+                    <label for="number" class="form-label">Prénom</label>
+                  </fieldset>
+                </form>
           </div>
           <div class="col-sm-6">
-            <form action="" class="form">
-              <fieldset class="form-field">
-                <input id="number" type="text" class="form-input">
-                <label for="number" class="form-label">E-mail</label>
-              </fieldset>
-            </form>
+              <form action="" class="form">
+                <fieldset class="form-field">
+                    <input type="text" name="name" id="name" class="form-control form-input"  rows="3" >
+                    <label for="number" class="form-label">Nom</label>
+                  </fieldset>
+                </form>
           </div>
         </div>
+        <div class="row">
+          <div class="col-sm-12 mail">
+              <form action="" class="form">
+                <fieldset class="form-field">
+                    <input type="text" name="name" id="name" class="form-control form-input"  rows="3" >
+                    <label for="number" class="form-label">E-mail</label>
+                  </fieldset>
+                </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 mail">
+              <form action="" class="form">
+                <fieldset class="form-field">
+                    <textarea  type="text" name="name" id="name"  class="form-control form-input" placeholder="Message" id="exampleTextarea" rows="6" ></textarea>
+                  </fieldset>
+                </form>
+          </div>
+        </div>
+        <a href ="#" title="je m'inscris" class="btn-two" style="float:right;">
+          <span class="top-two content-two">Envoyer</span>
+          <span class="bottom-two content-two">Vous êtes sur la bonne voie!</span>
+        </a>
       </div>
     </section>
+
+    <footer>
+      <div class="container">
+        <div class="logo" style="float:left">
+          <img src="img/logos.png" alt="">
+        </div>
+        <div class="iim" style="float:right">
+          <img src="img/iim.png" alt="">
+        </div>
+        <div class="foot" style="text-align:center">2017 ©Aylay</div>
+    </div>
+    </footer>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </body>
