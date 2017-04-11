@@ -1,0 +1,38 @@
+.contact{
+  height: 100%;
+  width: 100%;
+  background: url('img/contact.jpg') no-repeat;
+  background-size: cover;
+}
+
+.contact-two{
+  margin-top: 80px;
+}
+/*EXERCICE 2*/
+
+input{ /*postions absolute, afin d'insérer les éléments dans le formulaire*/
+  position: absolute;
+}
+label{
+  position: absolute;
+}
+
+.form-field{
+/*pas très important de ce que j'ai compris*/
+  position: relative;
+  border-width: 0px;
+}
+
+.form-label{
+  color: orange;
+  transition: all 800ms ease-in-out; /*toute transition sur le form-label y seras affecté*/
+}
+
+
+.form-input:focus + .form-label{
+/*focus qd on va input qui va influencer sur le form-label*/
+
+  color: #ff0097;/*En effet la couleur du texte va devenir bleu*/
+  transform: translateY(-20px) scale(0.8); /*Et le texte va se décaler en haut, et devenir 0.8x plus petit*/
+
+}
