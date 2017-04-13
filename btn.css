@@ -1,5 +1,6 @@
 
 .btn-two {
+    /*classe générale du boutton, c'est le boutton de base*/
   margin-top: 20px;
   background: rgba(255, 255, 255, 0.5);
   color: black;
@@ -16,41 +17,44 @@
   transition: all 400ms ease-in-out; /*effet de transition*/
 }
 
-.btn-two::before {
-  position: absolute;
+.btn-two::before {/*ça c'est le boutton qui va venir par dessus*/
+  position: absolute;/*position absolute, pck il est en dessous, du vrai boutton et va venir le recouvrir*/
   background-color: blue;
   color: orange;
   height: 100%;
   width: 100%;
   top:0;
-  left: 100%;
+  left: 100%;/*pour qu'il soit pile en dessous du vrai boutton*/
   transition: left 200ms ease-in-out 200ms;
 }
 
 .btn-two:hover::before{
-  left: 0;
+  left: 0;  /*on décale le bouton 2 à gauche, à 0% du left soit à gauche du boutton 1*/
   }
 
 .btn-two:hover .top-two{
-    left: -200px;
+    left: -200px; /*fait bouger le "je m'inscris" assez pour disparaitre pour disparaître*/
 }
 
 .btn-two:hover .bottom-two{
   left: 0;
+  /* fait décaler le texte "les places sont limitées"*/
+/*left 0, car on le met sur le boutton*/
 }
 
 .content-two {
   transition: left 200ms;
+    /*transition des deux textes*/
 }
 
 .content-two.top-two {
-  left: 0;
+  left: 0; /*Ici on initialise les textes, un sur le boutton, un autre à gauche qu'on voit pas*/
 }
 .content-two.bottom-two {
   left: -200px;
 }
 
-.btn-two .content-two {
+.btn-two .content-two {  /* Initialize le contenu des boutton */
   width: 100%;
   text-align: center;
   display: block;

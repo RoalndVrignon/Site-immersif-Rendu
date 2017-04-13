@@ -5,29 +5,22 @@
     <meta name="author" content="Marc Glisse" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="btn.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="btn.css"><!-- CSS des animations pour le bouton -->
+    <link rel="stylesheet" href="contact.css"><!-- CSS des animations pour le formulaire de contact -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
     <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
     <title>Squelette</title>
   </head>
   <body>
+    <!-- Création de la navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <a class="navbar-brand" href="#">
-              <img src="img/logos.png" height="99%">
+              <img src="img/logos.png" height="99%">   <!-- Logo en haut à gauche, réduction de sa taille -->
             </a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right  cl-effect-1" style="margin-right:100px;">
@@ -35,22 +28,24 @@
                 <li><a href="#rendu">Rendu</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+    </div>
     </nav>
 
+<!-- Première section -->
     <header>
       <div class="title">
         <h1>Site Immersif</h1>
         <h2>Promo 2020 - A2</h2>
         <h3>Option Web et e-buisness</h3>
-        <a href ="#" title="je m'inscris" class="btn-two">
-          <span class="top-two content-two">Commencer le cours</span>
-          <span class="bottom-two content-two">Vous êtes sur la bonne voie!</span>
+        <a href ="#" title="je m'inscris" class="btn-two">  <!-- Création d'un bouton animé CSS -->
+          <span class="top-two content-two">Commencer le cours</span> <!-- Texte du bouton -->
+          <span class="bottom-two content-two">Vous êtes sur la bonne voie!</span> <!-- Texte du bouton quand la souris passe dessus -->
         </a>
       </div>
     </header>
 
+<!-- Deuxième section, cours sur la transition -->
     <section class="bleu" id="cours">
     <div class="container">
       <div class="cours1">
@@ -91,7 +86,7 @@ Un fichier SVG n’est pas dégradé même quand il est zoomé.</h3>
     <section class="rendu" id="rendu">
     <div class="container">
       <div class="row txt">
-        <div class="col-sm-6 left">
+        <div class="col-sm-6 left"> <!-- à gauche le rendu (bootstrap) -->
           <h3 class="key">Rendu</h3>
           <h3 class="soustitre"> Intégrer cette maquette </h3>
           <h3 class="sous-soustitre">
@@ -99,19 +94,19 @@ Un fichier SVG n’est pas dégradé même quand il est zoomé.</h3>
           Animations CSS <br>
           Picto SVG <br>
           JS facultatif <br>
-        </h3>
+          </h3>
           <h3 class="soustitre"> Zip à envoyer avant le vendredi 14 avril 23h59 à </h3>
           <h3 class="sous-soustitre">
           luk.attali@gmail.com
-        </h3>
+          </h3>
           <h3 class="soustitre"> Nomenclature du zip et de l’objet du mail :  </h3>
           <h3 class="sous-soustitre">
           [IIM - A2 - SI] Prenom_Nom.zip
 
-        </h3>
+          </h3>
 
         </div>
-        <div class="col-sm-6 right">
+        <div class="col-sm-6 right"><!-- à droite le svg -->
           <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 150 80" style="enable-background:new 0 0 150 80;" xml:space="preserve">
           <g>
@@ -169,7 +164,7 @@ Un fichier SVG n’est pas dégradé même quand il est zoomé.</h3>
                 </form>
           </div>
         </div>
-        <a href ="#" title="je m'inscris" class="btn-two" style="float:right;">
+        <a href ="#" title="je m'inscris" class="btn-two" style="float:right;"> <!-- boutton avec animation, comme tout au début -->
           <span class="top-two content-two">Envoyer</span>
           <span class="bottom-two content-two">Vous êtes sur la bonne voie!</span>
         </a>

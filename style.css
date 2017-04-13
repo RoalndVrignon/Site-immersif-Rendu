@@ -73,25 +73,24 @@ h3 {
   width: 100%;
   background-color: #1ba1e2;
   background-size: cover;
-}
+}  /*Sections bleues*/
 
-.cours1 {
-  margin-top: 5%;
-}
 
 .transi{
   font-size: 70px;
   color: white;
 }
+/*Titres des sections*/
+
 .créer{
   color: white;
   font-size: 30px;
-}
+}/*Sous titres des sections */
 
 .transimg{
   text-align: center;
   margin-top: 45px;
-}
+} /*Image du cours pour la transition*/
 
 .keyframes{
   width: 100%;
@@ -103,23 +102,23 @@ h3 {
 .key{
   font-size: 60px;
   color: black;
-}
+} /*Titres keyframes*/
 
 .créer2{
     font-size: 25px;
     color: black;
-}
+}/*Sous titres keyframes*/
 
 .svg{
   height: 900px;
-}
+}/*Permet d'aggrandir la section, car image de cours trop grande*/
 
 .rendu{
   height: 100%;
   width: 100%;
   background: url('img/parapente.jpg') no-repeat;
   background-size: cover;
-}
+}/*Section du rendu*/
 
 .txt{
   margin-top: 70px;
